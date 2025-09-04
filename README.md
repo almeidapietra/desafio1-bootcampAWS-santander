@@ -3,7 +3,7 @@
 ## Descrição da Arquitetura
 Minha solução implementa uma arquitetura serverless na AWS que processa automaticamente imagens enviadas para um bucket S3. Quando um usuário faz upload de uma imagem, uma função Lambda é acionada para criar uma miniatura (thumbnail) da imagem, que é então armazenada em um bucket S3 separado.
 
-![Arquitetura Serverless](https://images/architecture.png](https://github.com/almeidapietra/desafio1-bootcampAWS-santander/blob/main/Arquiterura.png))
+![Arquitetura Serverless](Arquiterura.svg))
 
 ## Componentes da Arquitetura
 - **Amazon S3 (Bucket de Entrada):** Armazena as imagens originais enviadas pelos usuários  
